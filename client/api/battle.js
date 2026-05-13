@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Both p1 and p2 usernames are required' });
   }
 
-  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+  const GITHUB_TOKEN = process.env.ARENA_GITHUB_TOKEN;
 
   if (!GITHUB_TOKEN) {
     return res.status(500).json({ error: 'GitHub token is missing in server configuration' });
