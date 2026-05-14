@@ -5,7 +5,7 @@
     <strong>"Two developers enter. One survives the algorithm."</strong>
     <br />
     <br />
-    <a href="https://github-battle-arena.vercel.app">View Demo</a>
+    <a href="https://commit-clash.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/davishkar/github-battle-arena/issues">Report Bug</a>
   </p>
